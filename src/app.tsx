@@ -10,7 +10,7 @@ const ContentWithTextAndImage = () => (
       src='https://t4.ftcdn.net/jpg/05/52/90/43/360_F_552904388_7aUt5HQHVH1RygSp5UK2CTayhsxof7Ee.jpg'
       alt='Cool Image'
     />
-    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The.
+    <div>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The.</div>
   </div>
 )
 
@@ -29,7 +29,7 @@ export function App() {
   return (
     <Box
       width='100vw'
-      height='100vh'
+      minHeight='100vh'
       display='flex'
       alignItems='center'
       justifyContent='center'
